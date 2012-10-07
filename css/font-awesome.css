@@ -30,6 +30,12 @@
 }
 /*  Font Awesome styles
     ------------------------------------------------------- */
+[class^="icon-"],
+[class*=" icon-"] {
+    background-image: none;
+    vertical-align: middle;
+    width:auto;
+}
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: FontAwesome;
@@ -37,7 +43,9 @@
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
+  vertical-align: top;
 }
+
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;

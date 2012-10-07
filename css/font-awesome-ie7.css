@@ -3,6 +3,7 @@
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
+    background-image: none;
 }
 
 .btn.dropdown-toggle [class^="icon-"], .btn.dropdown-toggle [class*=" icon-"] {
