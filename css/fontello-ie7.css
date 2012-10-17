@@ -1,5 +1,5 @@
-[class^="icon-"],
-[class*=" icon-"] {
+.fontello[class^="icon-"],
+.fontello[class*=" icon-"] {
   font-family: 'fontello';
 }
 
