@@ -1,5 +1,5 @@
 #Font Awesome More 2.0+
-##the iconic font designed for use with Twitter Bootstrap
+**the iconic font designed for use with Twitter Bootstrap**
 
 ## New in this fork since 2.0
 
