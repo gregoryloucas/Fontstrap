@@ -1,5 +1,13 @@
-#Font Awesome More 2.0
-##the iconic font designed for use with Twitter Bootstrap
+#Font Awesome More 2.0+
+**the iconic font designed for use with Twitter Bootstrap**
+
+## New in this fork since 2.0
+
+- Fixed: vertical-align issues
+- Fixed: original bootstrap icons still showing in background
+- New: More icons from fontello.com (these icons needs a .fontello class too) :
+
+![New Icons](https://raw.github.com/xaguilars/font-awesome-xtra/master/newicons.png)
 
 The full suite of pictographic icons, examples, and documentation can be found at:
 http://gregoryloucas.github.com/Font-Awesome-More/
