@@ -26,16 +26,18 @@ $font_path: "../font/fontawesome-webfont" !default
 
 +font-face("FontAwesome", font-files("#{$font_path}.woff", woff, "#{$font_path}.ttf", truetype, "#{$font_path}.otf", opentype, "#{$font_path}.svgz#FontAwesomeRegular", svg, "#{$font_path}.svg#FontAwesomeRegular", svg), "#{$font_path}.eot", normal, normal)
 
-/*  Font Awesome styles
- *  -------------------------------------------------------
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before
+@mixin font-awesome
   font-family: FontAwesome
   font-weight: normal
   font-style: normal
   display: inline-block
   text-decoration: inherit
+
+/*  Font Awesome styles
+ *  -------------------------------------------------------
+[class^="icon-"]:before,
+[class*=" icon-"]:before
+  +font-awesome
 
 a [class^="icon-"],
 a [class*=" icon-"]
@@ -710,16 +712,16 @@ ul.icons
 
 .icon-user-md:before
   content: "\f200"
-  
+
 .icon-apple-logo:before
 	content: "\f500"
-	
+
 .icon-windows-8:before
 	content: "\f501"
-	
+
 .icon-js-fiddle:before
 	content: "\f502"
-	
+
 .icon-skype:before
 	content: "\f503"
 
@@ -743,7 +745,7 @@ ul.icons
 
 .icon-rss-sign:before
 	content: "\f50a"
-	
+
 .icon-reddit:before
 	content: "\f50b"
 
